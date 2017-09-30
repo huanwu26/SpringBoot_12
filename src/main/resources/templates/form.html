@@ -5,9 +5,9 @@
     <title>Title</title>
 </head>
 <body>
-<br><br />
+<br></br>
 <h1>Spring Boot File Upload Example</h1>
-<form method="POST" action="#" th:action="@{/add}" th:object="${actor}"
+<form method="POST" action="/add" th:object="${actor}"
       enctype="multipart/form-data">
     Name: <input type="text" th:field="*{name}" />
     Real Name: <input type="text" th:field="*{realname}" />
